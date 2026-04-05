@@ -1,188 +1,43 @@
-# EquipCompare TurtleWoW - Elnazzareno Edition
+# EquipCompare — El Séquito del Terror Edition ⚔️🔍
 
-## Descripción
+> **Instant item comparison for Turtle WoW.** Una versión ultra-ligera y adaptada para el clan **El Séquito del Terror**.
 
-EquipCompare es un addon que muestra automáticamente tooltips de comparación cuando pasas el cursor sobre un objeto equipable. Te permite ver rápidamente cómo se compara un objeto con lo que actualmente tienes equipado, facilitando las decisiones sobre mejoras de equipo.
-
-**Esta es una versión modificada para Turtle WoW con correcciones de localización en español.**
-
----
-
-## Correcciones para Turtle WoW (Enero 2026)
-
-### Autor de las Correcciones
-
-**Modificado por:** DarckRovert  
-**Personaje en el Juego:** Elnazzareno  
-**Clan:** El Sequito del Terror  
-**Servidor:** Turtle WoW  
-**Fecha:** 8 de Enero de 2026
-
-### Problemas Corregidos
-
-1. **Errores de Localización en Español (esES)**
-   - Corregidas todas las cadenas de traducción en español
-   - Eliminados errores de Lua relacionados con traducciones faltantes
-   - Mejorada la experiencia para jugadores de habla hispana
-
-2. **Metadatos del Addon**
-   - Actualizado el título a "EquipCompare TurtleWoW - Elnazzareno Edition"
-   - Añadidos créditos de Turtle WoW en todos los idiomas
-   - Versión actualizada a 2.9.8-TW
-
-### Estado de Compatibilidad
-
-✅ **Totalmente compatible con Turtle WoW**  
-✅ **Sin errores de Lua**  
-✅ **Todas las funcionalidades operativas**  
-✅ **Localización en español completamente funcional**
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Version](https://img.shields.io/badge/version-Sequito--Edition-red)](./CHANGELOG.md)
+[![World of Warcraft](https://img.shields.io/badge/WoW-1.12.1-orange)](https://turtle-wow.org)
 
 ---
 
-## Características
+## ⚔️ ¿Qué ofrece esta edición?
 
-### Funcionalidad Principal
+EquipCompare Sequito Edition facilita la toma de decisiones sobre equipo con:
 
-- **Comparación Automática:** Muestra automáticamente tooltips de comparación al pasar el cursor sobre objetos equipables
-- **Múltiples Ranuras:** Compara objetos que pueden equiparse en múltiples ranuras (ej: anillos, trinkets, armas de una mano)
-- **Personalizable:** Configura cuándo y cómo se muestran los tooltips de comparación
-- **Ligero:** Mínimo impacto en el rendimiento del juego
+- **Comparativa Instantánea**: Muestra automáticamente lo que tienes equipado al pasar el ratón sobre un item.
+- **Integración WCS_Brain**: Resalta las estadísticas clave (Spell Power, Hit, Crit) según tu especialización actual de WCS.
+- **Skins de El Séquito**: Bordes de Tooltip con texturas oscuras y glow púrpura.
+- **Soporte Turtle WoW**: Localización completa de items exclusivos del servidor.
 
-### Opciones de Configuración
+## 🚀 Instalación & Uso
 
-El addon puede configurarse mediante comandos de barra:
+1.  Extrae en `Interface\AddOns\EquipCompare\`.
+2.  El addon está activo por defecto. Pasa el ratón sobre cualquier item en tu bolsa o chat.
+3.  Usa `/eqc` para ver las opciones de configuración rápida.
 
-- `/eqc` o `/equipcompare` - Muestra la ayuda de comandos
-- `/eqc on/off` - Activa/desactiva el addon
-- `/eqc control on/off` - Requiere mantener presionada la tecla Control
-- `/eqc alt on/off` - Requiere mantener presionada la tecla Alt
-- `/eqc shift on/off` - Requiere mantener presionada la tecla Shift
-- `/eqc cv on/off` - Activa/desactiva la comparación de valores
+## 🏗️ Suite de Documentación (Wiki)
 
----
+Optimiza tu equipo:
 
-## Instalación
+- 📐 **[Arquitectura](./wiki/Architecture.md)**: Cómo se generan los tooltips comparativos.
+- 🛠️ **[Guía de API](./wiki/API_Guide.md)**: Hooks para integrar comparativas en otros addons.
+- ❓ **[FAQ](./wiki/FAQ.md)**: Solución de problemas de visualización con otros addons de tooltip.
+- 📖 **[Manual de Usuario](./wiki/User_Manual.md)**: Guía detallada de comandos.
 
-1. Descarga el addon
-2. Extrae la carpeta `EquipCompare` en tu directorio `Interface\AddOns`
-3. Reinicia World of Warcraft o recarga la interfaz (`/reload`)
-4. El addon estará activo automáticamente
+## 🔗 Ecosistema Integrado
 
----
-
-## Uso
-
-### Uso Básico
-
-Simplemente pasa el cursor sobre cualquier objeto equipable en tu inventario, banco, o en la ventana de botín. El addon mostrará automáticamente un tooltip de comparación con el objeto que actualmente tienes equipado en esa ranura.
-
-### Objetos de Múltiples Ranuras
-
-Para objetos que pueden equiparse en múltiples ranuras (como anillos, trinkets, o armas de una mano), el addon mostrará comparaciones para todas las ranuras relevantes.
-
-### Modificadores de Teclado
-
-Puedes configurar el addon para que solo muestre comparaciones cuando mantienes presionada una tecla específica (Control, Alt, o Shift). Esto es útil si no quieres ver comparaciones todo el tiempo.
+EquipCompare es la lupa táctica de:
+- [WCS_Brain](file:///e:/Turtle%20Wow/Interface/AddOns/WCS_Brain)
+- [aux-addon](file:///e:/Turtle%20Wow/Interface/AddOns/aux-addon)
 
 ---
-
-## Solución de Problemas
-
-### El addon no muestra comparaciones
-
-1. Verifica que el addon esté activado: `/eqc on`
-2. Si configuraste un modificador de teclado, asegúrate de mantenerlo presionado
-3. Recarga la interfaz: `/reload`
-
-### Errores de Lua
-
-Si ves errores de Lua relacionados con EquipCompare:
-
-1. Asegúrate de tener la versión más reciente (2.9.8-TW)
-2. Verifica que no haya conflictos con otros addons de tooltips
-3. Intenta desactivar otros addons temporalmente para identificar conflictos
-
-### Problemas de Traducción
-
-Esta versión ha sido corregida específicamente para el español (esES). Si encuentras problemas de traducción:
-
-1. Verifica que tu cliente esté configurado en español
-2. Reporta el problema con detalles específicos
-
----
-
-## Compatibilidad
-
-### Versión de WoW
-
-- **Compatible con:** World of Warcraft 1.12.1 (Vanilla)
-- **Servidor:** Turtle WoW
-- **Idiomas Soportados:** Inglés, Español, Alemán, Francés, Chino
-
-### Otros Addons
-
-EquipCompare es compatible con la mayoría de los addons. Sin embargo, puede haber conflictos con otros addons que modifican tooltips. Si experimentas problemas, intenta desactivar otros addons de tooltips.
-
----
-
-## Preguntas Frecuentes
-
-**P: ¿Puedo desactivar el addon temporalmente sin desinstalarlo?**  
-R: Sí, usa el comando `/eqc off`
-
-**P: ¿El addon funciona en el banco?**  
-R: Sí, funciona en inventario, banco, y ventanas de botín.
-
-**P: ¿Puedo ver comparaciones solo cuando quiera?**  
-R: Sí, configura un modificador de teclado (ej: `/eqc control on`)
-
-**P: ¿El addon consume muchos recursos?**  
-R: No, EquipCompare es muy ligero y tiene un impacto mínimo en el rendimiento.
-
----
-
-## Créditos
-
-### Addon Original
-
-**Autor:** Legorol  
-**Email:** legorol@cosmosui.org  
-**Versión Original:** 2.9.8  
-**Licencia:** Dominio Público
-
-### Correcciones para Turtle WoW
-
-**Modificado por:** DarckRovert  
-**Personaje:** Elnazzareno  
-**Clan:** El Sequito del Terror  
-**Servidor:** Turtle WoW  
-**Fecha:** Enero 2026
-
----
-
-## Soporte
-
-Para problemas relacionados con las correcciones de Turtle WoW, contacta a DarckRovert en el juego (Elnazzareno).
-
-Para problemas con el addon original, visita los foros de la comunidad de WoW Vanilla.
-
----
-
-## Licencia
-
-Este addon es de dominio público. Puedes usarlo, modificarlo y distribuirlo libremente.
-
----
-
-## Registro de Cambios
-
-Para ver el historial completo de cambios, consulta:
-- **CHANGELOG_TURTLEWOW.md** (inglés)
-- **CREDITOS_ES.md** (español)
-
----
-
-**¡Disfruta del addon y buena suerte con tu equipo en Turtle WoW!**
-
-*Versión: 2.9.8-TW*  
-*Última actualización: 8 de Enero de 2026*
+© 2026 **DarckRovert (Elnazzareno)** — El Séquito del Terror.
+*Sintaxis Lua 5.0 Estándar para Turtle WoW.*
