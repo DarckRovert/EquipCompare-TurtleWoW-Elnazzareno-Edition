@@ -1,39 +1,40 @@
-# Changelog — Instant Gear Comparison (EquipCompare) 📈⚔️
+﻿# Changelog â€” Instant Gear Comparison (EquipCompare) ðŸ“ˆâš”ï¸
 
-Todos los cambios notables en este proyecto serán documentados en este archivo siguiendo el estándar **Diamond Tier** de **DarckRovert**.
+Todos los cambios notables en este proyecto serÃ¡n documentados en este archivo siguiendo el estÃ¡ndar **Diamond Tier** de **DarckRovert**.
 
 ---
 
-## [v1.1.0] — 2026-04-07 [Item-Tier]
+## [v1.1.0] â€” 2026-04-07 [Item-Tier]
 
-### 🔎 Gear Comparison & Tooltips (Mejoras)
-- **Multi-Slot Comparison Hub**: Lógica mejorada para comparar automáticamente ambos anillos y abalorios secuencialmente.
+### ðŸ”Ž Gear Comparison & Tooltips (Mejoras)
+- **Multi-Slot Comparison Hub**: LÃ³gica mejorada para comparar automÃ¡ticamente ambos anillos y abalorios secuencialmente.
 - **Apex Skin Harmony**: Los bordes y fuentes de los tooltips de EquipCompare ahora se sincronizan con pfUI.
-- **esES/enUS/deDE Localization**: Sincronización oficial del diccionario de nombres de objetos para el Séquito.
-- **Zero-Latency Mod**: Optimización del hook `GameTooltip_OnShow` para evitar micro-bloqueos en la interfaz.
+- **esES/enUS/deDE Localization**: SincronizaciÃ³n oficial del diccionario de nombres de objetos para el SÃ©quito.
+- **Zero-Latency Mod**: OptimizaciÃ³n del hook `GameTooltip_OnShow` para evitar micro-bloqueos en la interfaz.
 
-### ⚡ Core & Branding
-- **Rebranding [Omni-Tier]**: Elevación global de la versión y URLs institucionales a `ko-fi.com/darckrovert`.
-- **CV Mode Fixes**: Corrección del modo `CharactersViewer` para comparar con personajes secundarios.
+### âš¡ Core & Branding
+- **Rebranding [Item-Tier]**: ElevaciÃ³n global de la versiÃ³n y URLs institucionales a `ko-fi.com/darckrovert`.
+- **CV Mode Fixes**: CorrecciÃ³n del modo `CharactersViewer` para comparar con personajes secundarios.
 
 ---
 
-## 📊 Matriz de Versiones Mayores
+## ðŸ“Š Matriz de Versiones Mayores
 
-| Versión | Fecha | Nombre Clave | Estado | Resumen |
+| VersiÃ³n | Fecha | Nombre Clave | Estado | Resumen |
 | :--- | :--- | :--- | :---: | :--- |
-| **1.1.0** | 2026-04-07 | **Item-Tier** | ✅ | Comparativa de ítems v1.1.0. |
-| **9.3.1** | 2026-01-20 | **God-Tier** | ⚠️ | Versión inicial de corrección de anclajes. |
-| **9.2.0** | 2025-11-15 | **Item-Link** | ❌ | Mejoras en la comparativa de chat. |
+| **1.1.0** | 2026-04-07 | **Item-Tier** | âœ… | Comparativa de Ã­tems v1.1.0. |
+| **9.3.1** | 2026-01-20 | **God-Tier** | âš ï¸ | VersiÃ³n inicial de correcciÃ³n de anclajes. |
+| **9.2.0** | 2025-11-15 | **Item-Link** | âŒ | Mejoras en la comparativa de chat. |
 
 ---
 
-## [v9.3.1] — 2026-01-20
+## [v9.3.1] â€” 2026-01-20
 
-### ✨ Características
-- **Turtle Fixes**: Corrección de problemas de desbordamiento en la comparativa de objetos de nivel 60+.
-- **Localization Sync**: Primera tanda de localización para el cliente español de Turtle WoW.
+### âœ¨ CaracterÃ­sticas
+- **Turtle Fixes**: CorrecciÃ³n de problemas de desbordamiento en la comparativa de objetos de nivel 60+.
+- **Localization Sync**: Primera tanda de localizaciÃ³n para el cliente espaÃ±ol de Turtle WoW.
 
 ---
-© 2026 **DarckRovert** — El Séquito del Terror.
-*Ingeniería de equipo para la conquista de Azeroth.*
+Â© 2026 **DarckRovert** â€” El SÃ©quito del Terror.
+*IngenierÃ­a de equipo para la conquista de Azeroth.*
+
