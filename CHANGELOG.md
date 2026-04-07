@@ -4,7 +4,7 @@ Todos los cambios notables en este proyecto serán documentados en este archivo 
 
 ---
 
-## [v9.4.0] — 2026-04-07 [Omni-Tier]
+## [v1.1.0] — 2026-04-07 [Item-Tier]
 
 ### 🔎 Gear Comparison & Tooltips (Mejoras)
 - **Multi-Slot Comparison Hub**: Lógica mejorada para comparar automáticamente ambos anillos y abalorios secuencialmente.
@@ -22,7 +22,7 @@ Todos los cambios notables en este proyecto serán documentados en este archivo 
 
 | Versión | Fecha | Nombre Clave | Estado | Resumen |
 | :--- | :--- | :--- | :---: | :--- |
-| **9.4.0** | 2026-04-07 | **Omni-Tier** | ✅ | Comparativa instantánea v9.4.0. |
+| **1.1.0** | 2026-04-07 | **Item-Tier** | ✅ | Comparativa de ítems v1.1.0. |
 | **9.3.1** | 2026-01-20 | **God-Tier** | ⚠️ | Versión inicial de corrección de anclajes. |
 | **9.2.0** | 2025-11-15 | **Item-Link** | ❌ | Mejoras en la comparativa de chat. |
 

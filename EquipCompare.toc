@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Title: |cffffffffEquipCompare |r|cff00ccff[Séquito del Terror]|r
-## Version: 9.4.0 [Omni-Tier]
+## Version: 1.1.0 [Item-Tier]
 ## Notes: Comparison tool for items. Optimized for Turtle WoW and BiS gear.
 ## Author: El Séquito del Terror (DarckRovert)
 ## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - 2026
