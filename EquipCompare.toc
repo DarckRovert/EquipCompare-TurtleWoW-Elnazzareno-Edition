@@ -1,21 +1,12 @@
 ## Interface: 11200
-## LoadOnDemand: 0
 ## Title: |cffffffffEquipCompare |r|cff00ccff[Séquito del Terror]|r
-## Title-frFR: |cffffffffEquipCompare |r|cff00ccff[Séquito del Terror]|r
-## Title-deDE: |cffffffffEquipCompare |r|cff00ccff[Séquito del Terror]|r
-## Title-koKR: |cffffffffEquipCompare |r|cff00ccff[Séquito del Terror]|r
-## Title-zhCN: |cffffffffEquipCompare |r|cff00ccff[Séquito del Terror]|r
-## Title-zhTW: |cffffffff裝備比較 |r|cff00ccff[Séquito del Terror]|r
-## Author: El Séquito del Terror
-## Version: 9.3.1 [God-Tier]
-## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - January 2026
-## X-Original-Author: Legorol
-## Notes-deDE: Ermöglicht es beliebige Gegenstände mit deiner momentanen Ausrüstung zu vergleichen (2.9.8-TW) [TurtleWoW Korrekturen von DarckRovert]
-## Notes-koKR: 아이템을 비교하기 쉽게 착용중인 아이템을 보여줍니다. (2.9.8-TW) [TurtleWoW Fixes by DarckRovert]
-## Notes-zhCN: 当鼠标在物品上悬停时显示该物品和你所装备同类物品的信息比较 (2.9.8-TW) [TurtleWoW Fixes by DarckRovert]
-## Notes-zhTW: 簡易的將所看到的物品與目前自己身上所裝備的物品做比較 (2.9.8-TW) [TurtleWoW Fixes by DarckRovert]
+## Version: 9.4.0 [Omni-Tier]
+## Notes: Comparison tool for items. Optimized for Turtle WoW and BiS gear.
+## Author: El Séquito del Terror (DarckRovert)
+## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - 2026
 ## SavedVariables: EquipCompare_Enabled, EquipCompare_ControlMode, EquipCompare_UseCV, EquipCompare_AltMode, EquipCompare_Shiftup
 ## OptionalDeps: Khaos, Cosmos, Satellite, Sky, CharactersViewer, LootLink
+
 localization.lua
 localization.de.lua
 localization.fr.lua
