@@ -35,12 +35,12 @@ Es una utilidad esencial que muestra automáticamente el objeto que tienes equip
 
 ## 🏗️ Suite de Documentación (Wiki)
 
-Domina tu equipo en nuestra base de conocimientos:
+Domina tu equipo en nuestra base de conocimientos oficial:
 
-- 📐 **[Arquitectura de Tooltips](./wiki/Architecture.md)**: Cómo gestionamos el renderizado dual.
-- 🛠️ **[Guía de API de Comparativa](./wiki/API_Guide.md)**: Hooks para WCS_Brain & StatCompare.
-- ❓ **[FAQ de Equipo](./wiki/FAQ.md)**: ¿Por qué no veo la comparación de abalorios?
-- 📖 **[Manual del Herrero](./wiki/User_Manual.md)**: Guía de configuración de teclas de acceso.
+- 🏰 **[Arquitectura de Tooltips](https://github.com/DarckRovert/EquipCompare-TurtleWoW-Elnazzareno-Edition/wiki/Arquitectura-(Technical))**: Cómo gestionamos el renderizado dual.
+- 🛠️ **[Guía de API de Comparativa](https://github.com/DarckRovert/EquipCompare-TurtleWoW-Elnazzareno-Edition/wiki/Guía-de-API)**: Hooks para WCS_Brain & StatCompare.
+- ❓ **[FAQ de Equipo](https://github.com/DarckRovert/EquipCompare-TurtleWoW-Elnazzareno-Edition/wiki/FAQ)**: ¿Por qué no veo la comparación de abalorios?
+- 📖 **[Manual del Herrero](https://github.com/DarckRovert/EquipCompare-TurtleWoW-Elnazzareno-Edition/wiki/Manual-de-Usuario)**: Guía de configuración de teclas de acceso.
 
 ## 🚀 Despliegue Rápido (Gear-Flow)
 
